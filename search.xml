@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>第二篇文章</title>
-      <link href="/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>第一篇文章</title>
+      <link href="/2023/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h2 id="头部信息判断是二篇文章"><a href="#头部信息判断是二篇文章" class="headerlink" title="头部信息判断是二篇文章"></a>头部信息判断是二篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="头部信息判断是一篇文章"><a href="#头部信息判断是一篇文章" class="headerlink" title="头部信息判断是一篇文章"></a>头部信息判断是一篇文章</h2><div class="note default simple"><p>这是一个标签</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴样式</p></div></div></div></div>]]></content>
       
       
       <categories>
           
-          <category> java基础 </category>
+          <category> 计算机应用 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 标签2 </tag>
+            <tag> 标签1 </tag>
             
         </tags>
       
@@ -54,23 +54,23 @@
     
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/2023/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>第二篇文章</title>
+      <link href="/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h2 id="头部信息判断是一篇文章"><a href="#头部信息判断是一篇文章" class="headerlink" title="头部信息判断是一篇文章"></a>头部信息判断是一篇文章</h2><div class="note default simple"><p>这是一个标签</p></div><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴样式</p></div></div></div></div>]]></content>
+        <content type="html"><![CDATA[<h2 id="头部信息判断是二篇文章"><a href="#头部信息判断是二篇文章" class="headerlink" title="头部信息判断是二篇文章"></a>头部信息判断是二篇文章</h2>]]></content>
       
       
       <categories>
           
-          <category> 计算机应用 </category>
+          <category> java基础 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 标签1 </tag>
+            <tag> 标签2 </tag>
             
         </tags>
       
@@ -79,17 +79,6 @@
     
   
   
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
     
     
     <entry>
@@ -104,22 +93,55 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>游戏</title>
-      <link href="/games/index.html"/>
-      <url>/games/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[:root {    --trans-light: rgba(255, 255, 255, 0.75);    --trans-dark: rgba(25, 25, 25, 0.75);    --border-style: 1px solid rgb(169, 169, 169);    /* --backdrop-filter: blur(5px) saturate(150%); */    --backdrop-filter: none  }/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {    background: #1e1e1e;    color: antiquewhite;  }  /* 鼠标悬浮状态 */  [data-theme="dark"] .magnet_link_context:hover {    background: #3ecdf1;    color: #f2f2f2;  }  @font-face {    /* 为载入的字体取名字(随意) */    font-family: 'YSHST';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/行楷.woff2);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }/* 翻页按钮居中 */#pagination {    width: 100%;    margin: auto;  }/* 一级菜单居中 */#nav .menus_items {    position: absolute !important;    width: fit-content !important;    left: 50% !important;    transform: translateX(-50%) !important;  }  /* 子菜单横向展示 */  #nav .menus_items .menus_item:hover .menus_item_child {    display: flex !important;  }  /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */  .menus_items .menus_item:nth-child(5) .menus_item_child {    left: -38px;  }/* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px rgb(0,255,255) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px rgb(0,255,255) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {    background: linear-gradient(      -45deg,      #e8d8b9,      #eccec5,      #a3e9eb,      #bdbdf0,      #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;  }  @-webkit-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @-moz-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }    /* 黑夜模式适配 */  [data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;  }    /* 个人信息Follow me按钮 */  #aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;  }  /* 鼠标样式 */#cursor {    position: fixed;    width: 16px;    height: 16px;    /* 这里改变跟随的底色 */    background: rgb(57, 197, 187);;    border-radius: 8px;    opacity: 0.25;    z-index: 10086;    pointer-events: none;    transition: 0.2s ease-in-out;    transition-property: background, opacity, transform;  }    #cursor.hidden {    opacity: 0;  }    #cursor.hover {    opacity: 0.1;    transform: scale(2.5);    -webkit-transform: scale(2.5);    -moz-transform: scale(2.5);    -ms-transform: scale(2.5);    -o-transform: scale(2.5);  }    #cursor.active {    opacity: 0.5;    transform: scale(0.5);    -webkit-transform: scale(0.5);    -moz-transform: scale(0.5);    -ms-transform: scale(0.5);    -o-transform: scale(0.5);  }    /* 首页文章卡片 */  #recent-posts > .recent-post-item {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 25px;    border: var(--border-style);  }    /* 首页侧栏卡片 */  #aside-content .card-widget {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 18px;    border: var(--border-style);  }    /* 文章页、归档页、普通页面 */  div#post,  div#page,  div#archive {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border: var(--border-style);    border-radius: 20px;  }    /* 导航栏 */  #page-header.nav-fixed #nav {    background: rgba(255, 255, 255, 0.75);    backdrop-filter: var(--backdrop-filter);  }    [data-theme="dark"] #page-header.nav-fixed #nav {    background: rgba(0, 0, 0, 0.7) !important;  }    /* 夜间模式遮罩 */  [data-theme="dark"] #recent-posts > .recent-post-item,  [data-theme="dark"] #aside-content .card-widget,  [data-theme="dark"] div#post,  [data-theme="dark"] div#archive,  [data-theme="dark"] div#page {    background: var(--trans-dark);  }      /* 夜间模式页脚页头遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }    /* 阅读模式 */  .read-mode #aside-content .card-widget {    background: rgba(158, 204, 171, 0.5) !important;  }  .read-mode div#post {    background: rgba(158, 204, 171, 0.5) !important;  }    /* 夜间模式下的阅读模式 */  [data-theme="dark"] .read-mode #aside-content .card-widget {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;  }  [data-theme="dark"] .read-mode div#post {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;  }  svg.icon {    width: 1.28em;    height: 1.28em;    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;  }/* 帧率检测 */#fps {  position: fixed;  /* 指定位置 */  left: 10px;  bottom: 10px;  z-index: 1919810;}[data-theme="light"] #fps {  background-color: rgba(255, 255, 255, 0.85);  backdrop-filter: var(--backdrop-filter);  padding: 4px;  border-radius: 4px;}[data-theme="dark"] #fps {  background-color: rgba(0, 0, 0, 0.72);  backdrop-filter: var(--backdrop-filter);  padding: 4px;  border-radius: 4px;}/* 头像呼吸灯 */[data-theme="light"] .avatar-img {  animation: huxi_light 4s ease-in-out infinite;}[data-theme="dark"] .avatar-img {  animation: huxi_dark 4s ease-in-out infinite;}@keyframes huxi_light {  0% {    box-shadow: 0px 0px 1px 1px #e9f5fa;  }  50% {    box-shadow: 0px 0px 5px 5px #e9f5fa;  }  100% {    box-shadow: 0px 0px 1px 1px #e9f5fa;  }}@keyframes huxi_dark {  0% {    box-shadow: 0px 0px 1px 1px #39c5bb;  }  50% {    box-shadow: 0px 0px 5px 5px #39c5bb;  }  100% {    box-shadow: 0px 0px 1px 1px #39c5bb;  }}/* 新年侧边栏 */#newYear {  color: white;  padding: 0 !important;}#newYear p,#newYear h3 {  font-weight: normal;  color: inherit;  margin: 0;}#newYear .item-headline {  display: none;}#newYear-main {  min-height: 160px;  padding: 1rem;  position: relative;  border-radius: 12px;  background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/tunian.webp);  background-size: cover;  background-position: center;}#newYear-main * {  position: relative;  line-height: 1.3;}#newYear-main .newYear-time {  font-weight: bold;  text-align: center;}#newYear-main .time,#newYear-main .happyNewYear {  font-size: 3.5rem;  margin: 1rem 0;  display: block;}#newYear-main .day {  font-size: 5rem;}#newYear-main .day .unit {  font-size: 1rem;}#newYear-main .mask {  position: absolute;  left: 0;  top: 0;  height: 100%;  width: 100%;  background-color: rgba(0, 0, 0, .1);}/* 滚动条样式 */::-webkit-scrollbar {  width: 8px;  height: 8px;}::-webkit-scrollbar-track {  background-color: rgba(73, 177, 245, 0.2);  border-radius: 2em;}::-webkit-scrollbar-thumb {  background-color: #430aed;  background-image: -webkit-linear-gradient(    45deg,    rgba(255, 255, 255, 0.4) 25%,    transparent 25%,    transparent 50%,    rgba(255, 255, 255, 0.4) 50%,    rgba(255, 255, 255, 0.4) 75%,    transparent 75%,    transparent  );  border-radius: 2em;}::-webkit-scrollbar-corner {  background-color: transparent;}::-moz-selection {  color: #fff;  background-color: #430aed;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
+      
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
+      
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -138,10 +160,65 @@
     
     <entry>
       <title></title>
+      <link href="/js/fps.js"/>
+      <url>/js/fps.js</url>
+      
+        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/light.js"/>
       <url>/js/light.js</url>
       
         <content type="html"><![CDATA[// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
+      
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime.js"/>
+      <url>/js/runtime.js</url>
+      
+        <content type="html"><![CDATA[var now=new Date;function createtime(){now.setTime(now.getTime()+1e3);var e=new Date("01/01/2023 00:00:00"),t=Math.trunc(234e8+(now-e)/1e3*17),a=(t/1496e5).toFixed(6),o=new Date("01/01/2023 00:00:00"),n=(now-o)/1e3/60/60/24,r=Math.floor(n),i=(now-o)/1e3/60/60-24*r,s=Math.floor(i);1==String(s).length&&(s="0"+s);var d=(now-o)/1e3/60-1440*r-60*s,l=Math.floor(d);1==String(l).length&&(l="0"+l);var g=(now-o)/1e3-86400*r-3600*s-60*l,b=Math.round(g);1==String(b).length&&(b="0"+b);let c="";c=s<18&&s>=9?`<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`:`<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=c)}setInterval((()=>{createtime()}),1e3);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/newYear.js"/>
+      <url>/js/newYear.js</url>
+      
+        <content type="html"><![CDATA[let newYearTimer = null;var newYear = () => {    clearTimeout(newYearTimer);    if (!document.querySelector('#newYear')) return;    // 新年时间戳 and 星期对象    let newYear = new Date('2023-01-22 00:00:00').getTime() / 1000,        week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }    time();    // 补零函数    function nol(h) { return h > 9 ? h : '0' + h; };    function time() {        // 现在 时间对象        let now = new Date();        // 右下角 今天        document.querySelector('#newYear .today').innerHTML = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate() + ' ' + week[now.getDay()]        // 现在与新年相差秒数        let second = newYear - Math.round(now.getTime() / 1000);        // 小于0则表示已经过年        if (second < 0) {            document.querySelector('#newYear .title').innerHTML = 'Happy New Year!';            document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐</p>';        } else {            // 大于0则还未过年            document.querySelector('#newYear .title').innerHTML = '距离2023年春节：'            // 大于一天则直接渲染天数            if (second > 86400) {                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="day">${Math.ceil(second / 86400)}<span class="unit">天</span></span>`            } else {                // 小于一天则使用时分秒计时。                let h = nol(parseInt(second / 3600));                second %= 3600;                let m = nol(parseInt(second / 60));                second %= 60;                let s = nol(second);                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${h}:${m}:${s}</span></span>`;                // 计时                newYearTimer = setTimeout(time, 1000);            }        }    }    // 元宝飘落    jQuery(document).ready(function ($) {        $('#newYear').wpSuperSnow({            flakes: ['https://tuchuang.voooe.cn/images/2023/01/02/yb1.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb2.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb3.webp'],            totalFlakes: '100',            zIndex: '999999',            maxSize: '30',            maxDuration: '20',            useFlakeTrans: false        });    });}// Pjax适配：若没有开启Pjax这里直接是newYear()即可// 开了Pjax的用以下两句newYear()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/sunmoon.js"/>
+      <url>/js/sunmoon.js</url>
+      
+        <content type="html"><![CDATA[function switchNightMode() {    document.querySelector('body').insertAdjacentHTML('beforeend', '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'),        setTimeout(function () {            document.querySelector('body').classList.contains('DarkMode') ? (document.querySelector('body').classList.remove('DarkMode'), localStorage.setItem('isDark', '0'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')) : (document.querySelector('body').classList.add('DarkMode'), localStorage.setItem('isDark', '1'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')),                setTimeout(function () {                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.transition = 'opacity 3s';                    document.getElementsByClassName('Cuteen_DarkSky')[0].style.opacity = '0';                    setTimeout(function () {                        document.getElementsByClassName('Cuteen_DarkSky')[0].remove();                    }, 1e3);                }, 2e3)        })    const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'    if (nowMode === 'light') {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "1";        document.getElementById("moon").style.opacity = "0";        setTimeout(function () {            document.getElementById("sun").style.opacity = "0";            document.getElementById("moon").style.opacity = "1";        }, 1000);        activateDarkMode()        saveToLocal.set('theme', 'dark', 2)        // GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)        document.getElementById('modeicon').setAttribute('xlink:href', '#icon-sun')        // 延时弹窗提醒        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "关灯啦🌙",                        message: "当前已成功切换至夜间模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    } else {        // 先设置太阳月亮透明度        document.getElementById("sun").style.opacity = "0";        document.getElementById("moon").style.opacity = "1";        setTimeout(function () {            document.getElementById("sun").style.opacity = "1";            document.getElementById("moon").style.opacity = "0";        }, 1000);                activateLightMode()        saveToLocal.set('theme', 'light', 2)        document.querySelector('body').classList.add('DarkMode'), document.getElementById('modeicon').setAttribute('xlink:href', '#icon-moon')        setTimeout(() => {            new Vue({                data: function () {                    this.$notify({                        title: "开灯啦🌞",                        message: "当前已成功切换至白天模式！",                        position: 'top-left',                        offset: 50,                        showClose: true,                        type: "success",                        duration: 5000                    });                }            })        }, 2000)    }    // handle some cases    typeof utterancesTheme === 'function' && utterancesTheme()    typeof FB === 'object' && window.loadFBComment()    window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)}]]></content>
       
     </entry>
     
@@ -159,20 +236,31 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <title>游戏</title>
+      <link href="/games/index.html"/>
+      <url>/games/index.html</url>
       
-        <content type="html"><![CDATA[:root {    --trans-light: rgba(255, 255, 255, 0.75);    --trans-dark: rgba(25, 25, 25, 0.75);    --border-style: 1px solid rgb(169, 169, 169);    /* --backdrop-filter: blur(5px) saturate(150%); */    --backdrop-filter: none  }/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }  /* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {    background: #1e1e1e;    color: antiquewhite;  }  /* 鼠标悬浮状态 */  [data-theme="dark"] .magnet_link_context:hover {    background: #3ecdf1;    color: #f2f2f2;  }  @font-face {    /* 为载入的字体取名字(随意) */    font-family: 'YSHST';    /* 字体文件地址(相对或者绝对路径都可以) */    src: url(/font/行楷.woff2);    /* 定义加粗样式(加粗多少) */    font-weight: normal;    /* 定义字体样式(斜体/非斜体) */    font-style: normal;    /* 定义显示样式 */    font-display: block;  }/* 翻页按钮居中 */#pagination {    width: 100%;    margin: auto;  }/* 一级菜单居中 */#nav .menus_items {    position: absolute !important;    width: fit-content !important;    left: 50% !important;    transform: translateX(-50%) !important;  }  /* 子菜单横向展示 */  #nav .menus_items .menus_item:hover .menus_item_child {    display: flex !important;  }  /* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */  .menus_items .menus_item:nth-child(5) .menus_item_child {    left: -38px;  }/* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px rgb(0,255,255) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px rgb(0,255,255) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {    background: linear-gradient(      -45deg,      #e8d8b9,      #eccec5,      #a3e9eb,      #bdbdf0,      #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;  }  @-webkit-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @-moz-keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }  @keyframes Gradient {    0% {      background-position: 0% 50%;    }    50% {      background-position: 100% 50%;    }    100% {      background-position: 0% 50%;    }  }    /* 黑夜模式适配 */  [data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;  }    /* 个人信息Follow me按钮 */  #aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;  }  /* 鼠标样式 */#cursor {    position: fixed;    width: 16px;    height: 16px;    /* 这里改变跟随的底色 */    background: rgb(57, 197, 187);;    border-radius: 8px;    opacity: 0.25;    z-index: 10086;    pointer-events: none;    transition: 0.2s ease-in-out;    transition-property: background, opacity, transform;  }    #cursor.hidden {    opacity: 0;  }    #cursor.hover {    opacity: 0.1;    transform: scale(2.5);    -webkit-transform: scale(2.5);    -moz-transform: scale(2.5);    -ms-transform: scale(2.5);    -o-transform: scale(2.5);  }    #cursor.active {    opacity: 0.5;    transform: scale(0.5);    -webkit-transform: scale(0.5);    -moz-transform: scale(0.5);    -ms-transform: scale(0.5);    -o-transform: scale(0.5);  }    /* 首页文章卡片 */  #recent-posts > .recent-post-item {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 25px;    border: var(--border-style);  }    /* 首页侧栏卡片 */  #aside-content .card-widget {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 18px;    border: var(--border-style);  }    /* 文章页、归档页、普通页面 */  div#post,  div#page,  div#archive {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border: var(--border-style);    border-radius: 20px;  }    /* 导航栏 */  #page-header.nav-fixed #nav {    background: rgba(255, 255, 255, 0.75);    backdrop-filter: var(--backdrop-filter);  }    [data-theme="dark"] #page-header.nav-fixed #nav {    background: rgba(0, 0, 0, 0.7) !important;  }    /* 夜间模式遮罩 */  [data-theme="dark"] #recent-posts > .recent-post-item,  [data-theme="dark"] #aside-content .card-widget,  [data-theme="dark"] div#post,  [data-theme="dark"] div#archive,  [data-theme="dark"] div#page {    background: var(--trans-dark);  }      /* 夜间模式页脚页头遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }    /* 阅读模式 */  .read-mode #aside-content .card-widget {    background: rgba(158, 204, 171, 0.5) !important;  }  .read-mode div#post {    background: rgba(158, 204, 171, 0.5) !important;  }    /* 夜间模式下的阅读模式 */  [data-theme="dark"] .read-mode #aside-content .card-widget {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;  }  [data-theme="dark"] .read-mode div#post {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;  }  svg.icon {    width: 1.28em;    height: 1.28em;    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;  }]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main"><figure class="gallery-group"><img class="gallery-group-img no-lightbox entered loaded" src="https://data-static.netdun.net/Fomalhaut/siteshot/跳房子.webp" data-lazy-src="https://data-static.netdun.net/Fomalhaut/siteshot/跳房子.webp" alt="Group Image Gallery" data-ll-status="loaded"><figcaption><div class="gallery-group-name">跳房子</div><p>js实现一个点击跳跃逃离房屋坍塌小游戏</p><a target="_blank" rel="noopener" href="https://haiyong.site/moyu/tiaofangzi.html"></a></figcaption></figure><figure class="gallery-group"><img class="gallery-group-img no-lightbox entered loaded" src="https://data-static.netdun.net/Fomalhaut/siteshot/植物大战僵尸.webp" data-lazy-src="https://data-static.netdun.net/Fomalhaut/siteshot/植物大战僵尸.webp" alt="Group Image Gallery" data-ll-status="loaded"><figcaption><div class="gallery-group-name">植物大战僵尸</div><p>植物大战僵尸网页版</p><a target="_blank" rel="noopener" href="https://haiyong.site/moyu/pvz/"></a></figcaption></figure><figure class="gallery-group"><img class="gallery-group-img no-lightbox entered loaded" src="https://data-static.netdun.net/Fomalhaut/siteshot/小飞鱼.webp" data-lazy-src="https://data-static.netdun.net/Fomalhaut/siteshot/小飞鱼.webp" alt="Group Image Gallery" data-ll-status="loaded"><figcaption><div class="gallery-group-name">小飞鱼🐳</div><p>移动鼠标来改变速度和方向</p><a target="_blank" rel="noopener" href="https://haiyong.site/moyu/xiaofeiyu.html"></a></figcaption></figure><figure class="gallery-group"><img class="gallery-group-img no-lightbox entered loaded" src="https://data-static.netdun.net/Fomalhaut/siteshot/虫子走迷宫.webp" data-lazy-src="https://data-static.netdun.net/Fomalhaut/siteshot/虫子走迷宫.webp" alt="Group Image Gallery" data-ll-status="loaded"><figcaption><div class="gallery-group-name">虫子走迷宫🐛</div><p>你是一只虫子，控制自己去吃你最爱的卷心菜</p><a target="_blank" rel="noopener" href="https://haiyong.site/moyu/paocaimigong.html"></a></figcaption></figure><figure class="gallery-group"><img class="gallery-group-img no-lightbox" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://data-static.netdun.net/Fomalhaut/siteshot/打地鼠.webp" alt="Group Image Gallery"><figcaption><div class="gallery-group-name">打地鼠</div><p>哦咧哇dadishu咪哒！</p><a target="_blank" rel="noopener" href="https://haiyong.site/moyu/dadishu.html"></a></figcaption></figure><figure class="gallery-group"><img class="gallery-group-img no-lightbox" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://data-static.netdun.net/Fomalhaut/siteshot/小狮子.webp" alt="Group Image Gallery"><figcaption><div class="gallery-group-name">爱吹风的小狮子🦁</div><p>按住并拖动以产生风，小狮子一定会很舒服❤</p><a target="_blank" rel="noopener" href="https://haiyong.site/moyu/lion.html"></a></figcaption></figure></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -192,31 +280,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/runtime.js"/>
-      <url>/js/runtime.js</url>
-      
-        <content type="html"><![CDATA[var now=new Date;function createtime(){now.setTime(now.getTime()+1e3);var e=new Date("01/01/2023 00:00:00"),t=Math.trunc(234e8+(now-e)/1e3*17),a=(t/1496e5).toFixed(6),o=new Date("01/01/2023 00:00:00"),n=(now-o)/1e3/60/60/24,r=Math.floor(n),i=(now-o)/1e3/60/60-24*r,s=Math.floor(i);1==String(s).length&&(s="0"+s);var d=(now-o)/1e3/60-1440*r-60*s,l=Math.floor(d);1==String(l).length&&(l="0"+l);var g=(now-o)/1e3-86400*r-3600*s-60*l,b=Math.round(g);1==String(b).length&&(b="0"+b);let c="";c=s<18&&s>=9?`<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`:`<img class='boardsign' src='https://sourcebucket.s3.ladydaily.com/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${r} 天 ${s} 小时 ${l} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</div>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=c)}setInterval((()=>{createtime()}),1e3);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
