@@ -875,7 +875,10 @@
     min-height: 40px;
   }
   #site-name{
-    font-size: 15px;
+    font-size: 16px;
+  }
+  #nav-right{
+    flex: 1 1;
   }
 }
 
