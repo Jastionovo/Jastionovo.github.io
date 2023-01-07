@@ -223,7 +223,11 @@
   }
   
   /* 导航栏 */
-  #page-header.nav-fixed #nav {
+  /* #page-header.nav-fixed #nav {
+   
+  } */
+
+  #page-header.nav-fixed #nav{
     background: linear-gradient(60deg,#ffd7e4 0,#c8f1ff 80%);
     /* linear-gradient(to right, #bb313e25, #bb313e25, #d7222925, #dd4a1625, #e4761525, #f5c50025, #f0e92725, #b1ce2425, #48a93525, #03944525, #157c4f25, #176a5825, #1b556325, #1d386f25, #1d386f25, #20277825, #52266325, #8a244b25); */
     backdrop-filter: var(--backdrop-filter);
@@ -870,6 +874,9 @@
     height: 40px;
     min-height: 40px;
   }
+  #site-name{
+    font-size: 15px;
+  }
 }
 
 .card-info-avatar .author-status-box {
@@ -982,7 +989,7 @@
   top: 0;
   left: 0;
   content: "回到顶部";
-  background-color: rgb(53, 157, 209);
+  background-color: rgb(13, 209, 231);
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1098,7 +1105,7 @@
     max-width: calc(18% - 10px) !important;
     box-sizing: content-box;
   }
-} */
+} 
 
 /* 右下角闭眼 */
 .el-textarea__inner {
