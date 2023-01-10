@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>字体TTF格式转woff2格式（需要python环境）</title>
+      <link href="/2023/01/01/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/01/01/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="字体二级压缩"><a href="#字体二级压缩" class="headerlink" title="字体二级压缩"></a>字体二级压缩</h1><p>我们从网上下载的字体通常都是<code>TTF</code>格式，ttf(TrueTypeFont)是一种字库名称，是Apple公司和Microsoft公司共同退出的字体文件格式，也是最常用的格式之一，但是一些好看的字体往往体积都会很大，网站每次进去都要加载一个这么大的文件，速度肯定会很慢！列如下面这个字体文件，体积约为4MB。</p><p><img src="https://jastin.fun/img/md3.png" alt=""></p><p>一个有效的压缩方法是：<code>fonttools编码压缩+转woff2格式</code>二级压缩</p><p>参考：<a href="https://blog.csdn.net/littleduo/article/details/124563106">有效的压缩字体方法</a></p><h2 id="1-1使用fonttools压缩字体文件"><a href="#1-1使用fonttools压缩字体文件" class="headerlink" title="1.1使用fonttools压缩字体文件"></a>1.1使用fonttools压缩字体文件</h2><p>需要<code>python</code>环境，并已安装好pip，使用pip来安装fonttools。<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install fonttools</span><br></pre></td></tr></table></figure></p><p>下载已经整理好的字体编码列表文件<code>sc_unicode.txt</code><a href="https://gist.githubusercontent.com/imaegoo/d64e5088b723c2e02c40985f55ff12db/raw/5ebd2ce49418c73459a9dfe050483409306a6c1d/sc_unicode.txt">点击这里下载</a>，进入网页另存为。</p><p>将你要压缩的字体ttf文件和刚下载的sc_unicode.txt编码文件放进同一个文件夹中，进入该文件夹的控制台，输入如下命令然后回车（记得将<code>字体文件名称</code>改为你下载的字体文件名称）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pyftsubset 锐字云字库行楷体GBK.TTF --unicodes-file=sc_unicode.txt</span><br></pre></td></tr></table></figure><p><img src="https://jastin.fun/img/md4.png" alt=""><br><img src="https://jastin.fun/img/md5.png" alt=""><br>然后就得到图片所示的subset结尾的编码压缩后的ttf文件，体积已经明显下降了。</p><h2 id="1-2-利用CloudConvert将TTF格式转换为woff2格式"><a href="#1-2-利用CloudConvert将TTF格式转换为woff2格式" class="headerlink" title="1.2 利用CloudConvert将TTF格式转换为woff2格式"></a>1.2 利用CloudConvert将TTF格式转换为woff2格式</h2><p>进入国外平台<a href="https://cloudconvert.com/">CloudConvert</a>(国内下载速度可能较慢，加速方法见<a href=""></a>)，将TTF格式的字体文件转化为<code>woff2</code>格式</p><p><img src="https://jastin.fun/img/md6.png" alt=""></p><p><img src="https://jastin.fun/img/md7.png" alt=""></p><p>现在字体文件已经转换为woff2格式了，并且体积也大幅减小了，快去试试吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> WEB程序开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown编写总结</title>
       <link href="/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
@@ -54,9 +79,9 @@
     
     
     <entry>
-      <title>字体TTF格式转woff2格式（需要python环境）</title>
-      <link href="/2023/01/01/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/01/01/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>Python爬虫(微博热搜)</title>
+      <link href="/2023/01/01/%E7%AC%AC%E5%85%AD%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/01/01/%E7%AC%AC%E5%85%AD%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -96,31 +121,6 @@
         <tags>
             
             <tag> 软件 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Python爬虫(微博热搜)</title>
-      <link href="/2023/01/01/%E7%AC%AC%E5%85%AD%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/01/01/%E7%AC%AC%E5%85%AD%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> WEB程序开发 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Python </tag>
             
         </tags>
       
@@ -180,32 +180,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/readPercent.css"/>
-      <url>/css/readPercent.css</url>
-      
-        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/emoji.css"/>
       <url>/css/emoji.css</url>
       
         <content type="html"><![CDATA[#owo-big {    position: fixed;    align-items: center;    background-color: rgb(255, 255, 255);    border: 1px #aaa solid;    border-radius: 10px;    z-index: 9999;    display: none;    transform: translate(0, -105%);    overflow: hidden;    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);}[data-theme=dark] #owo-big {    background-color: #4a4a4a}#owo-big img {    width: 100%;}/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */@keyframes owoIn {    0% {        transform: translate(0, -95%);        opacity: 0;    }    100% {        transform: translate(0, -105%);        opacity: 1;    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>游戏</title>
-      <link href="/games/index.html"/>
-      <url>/games/index.html</url>
-      
-        <content type="html"><![CDATA[<!--  --><div class="note info flat">    <p><font size="4"><b>以下游戏源码均取自他人的开源代码，如有侵权请联系删除!</b></font></p></div><div class="gallery-group-main">    <figure class="gallery-group">        <img src="https://data-static.netdun.net/Fomalhaut/siteshot/跳房子.webp" />        <figcaption>            <div class="gallery-group-name">跳房子</div>            <p>js实现一个点击跳跃逃离房屋坍塌小游戏</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/tiaofangzi.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://www.jastin.fun/img/植物大战僵尸.webp" />        <figcaption>            <div class="gallery-group-name">植物大战僵尸</div>            <p>植物大战僵尸网页版</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/pvz/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://code.haiyong.site/moyu/img/24.png" />        <figcaption>            <div class="gallery-group-name">中国象棋</div>            <p>快来与电脑进行对战吧！</p>            <a target="_blank" rel="noopener" href="https://code.haiyong.site/moyu/xiangqi/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://code.haiyong.site/wp-content/uploads/2022/10/xiagu2-300x233.png" />        <figcaption>            <div class="gallery-group-name">英雄联盟</div>            <p>提莫专属地图</p>            <a target="_blank" rel="noopener" href="https://code.haiyong.site/moyu/damaoxian/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://code.haiyong.site/moyu/img/63.png" />        <figcaption>            <div class="gallery-group-name">3D魔方</div>            <p>试着还原这个魔方吧</p>            <a target="_blank" rel="noopener" href="https://code.haiyong.site/moyu/mofang/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/1616779f7720439a962f069686bc8dd3.png">        <figcaption>            <div class="gallery-group-name">爱吹风的小狮子🦁</div>            <p>按住并拖动以产生风，小狮子一定会很舒服❤</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/lion.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/f75cbc67588c4661a1b1e863309267df.png">        <figcaption>            <div class="gallery-group-name">逗猫🐱</div>            <p>快来和小猫玩耍吧❤</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/doumao.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/df51977576604dd0bcac1f7ef2f5f9a0.png">        <figcaption>            <div class="gallery-group-name">五子棋</div>            <p>尝试挑战AI算法</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/wuziqi.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/f34f5928fba34f2cad175aff7ddf8db7.png">        <figcaption>            <div class="gallery-group-name">扫雷</div>            <p>看似简单，其实暗藏地雷</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/saolei.html"></a>        </figcaption>    </figure></div>]]></content>
       
     </entry>
     
@@ -235,6 +213,61 @@
     
     <entry>
       <title></title>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
+      
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>游戏</title>
+      <link href="/games/index.html"/>
+      <url>/games/index.html</url>
+      
+        <content type="html"><![CDATA[<!--  --><div class="note info flat">    <p><font size="4"><b>以下游戏源码均取自他人的开源代码，如有侵权请联系删除!</b></font></p></div><div class="gallery-group-main">    <figure class="gallery-group">        <img src="https://data-static.netdun.net/Fomalhaut/siteshot/跳房子.webp" />        <figcaption>            <div class="gallery-group-name">跳房子</div>            <p>js实现一个点击跳跃逃离房屋坍塌小游戏</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/tiaofangzi.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://www.jastin.fun/img/植物大战僵尸.webp" />        <figcaption>            <div class="gallery-group-name">植物大战僵尸</div>            <p>植物大战僵尸网页版</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/pvz/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://code.haiyong.site/moyu/img/24.png" />        <figcaption>            <div class="gallery-group-name">中国象棋</div>            <p>快来与电脑进行对战吧！</p>            <a target="_blank" rel="noopener" href="https://code.haiyong.site/moyu/xiangqi/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://code.haiyong.site/wp-content/uploads/2022/10/xiagu2-300x233.png" />        <figcaption>            <div class="gallery-group-name">英雄联盟</div>            <p>提莫专属地图</p>            <a target="_blank" rel="noopener" href="https://code.haiyong.site/moyu/damaoxian/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://code.haiyong.site/moyu/img/63.png" />        <figcaption>            <div class="gallery-group-name">3D魔方</div>            <p>试着还原这个魔方吧</p>            <a target="_blank" rel="noopener" href="https://code.haiyong.site/moyu/mofang/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/1616779f7720439a962f069686bc8dd3.png">        <figcaption>            <div class="gallery-group-name">爱吹风的小狮子🦁</div>            <p>按住并拖动以产生风，小狮子一定会很舒服❤</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/lion.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/f75cbc67588c4661a1b1e863309267df.png">        <figcaption>            <div class="gallery-group-name">逗猫🐱</div>            <p>快来和小猫玩耍吧❤</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/doumao.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/df51977576604dd0bcac1f7ef2f5f9a0.png">        <figcaption>            <div class="gallery-group-name">五子棋</div>            <p>尝试挑战AI算法</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/wuziqi.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/f34f5928fba34f2cad175aff7ddf8db7.png">        <figcaption>            <div class="gallery-group-name">扫雷</div>            <p>看似简单，其实暗藏地雷</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/moyu/saolei.html"></a>        </figcaption>    </figure></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动画</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat">    <p><font size="4"><b>以下动画源码均取自他人的开源代码，如有侵权请联系删除!</b></font></p></div><div class="gallery-group-main">    <figure class="gallery-group">        <img src="https://code.haiyong.site/wp-content/uploads/2022/11/hacker.png" />        <figcaption>            <div class="gallery-group-name">黑客入侵</div>            <p>模拟黑客入侵网站画面</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/hacker/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/4af46e58013144d9b4ba8e20a9fc39c2.png" />        <figcaption>            <div class="gallery-group-name">哆啦A梦时光机</div>            <p>带你穿越时空</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/chuanyueshikong.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/2d5574d9f180413393d95bfa72fba108.gif" />        <figcaption>            <div class="gallery-group-name">3D烟花特效</div>            <p>3D眩晕误入</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/fireworks4.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/a6d6a5ccf467476fa986646fbeabc840.png" />        <figcaption>            <div class="gallery-group-name">日夜交替动画</div>            <p>日夜切换</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/daynight.html"></a>        </figcaption>    </figure></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><div class="note info flat">    <p><font size="4">轻音乐资源由<a href="https://www.fomal.cc/">Fomalhaut</a>大佬提供</font></p>    <p><font size="4">想要获得更多好听歌曲可以关注我网易云音乐：</font></p>    <p><font size="4"><a href="https://jastin.fun/img/p03.jpg">https://jastin.fun/img/p03.jpg</a></font></p></div><h2 id="轻音乐"><a href="#轻音乐" class="headerlink" title="轻音乐"></a>轻音乐</h2><details class="folding-tag" ><summary> 轻音乐 </summary>              <div class='content'>              <h2 id="轻音乐："><a href="#轻音乐：" class="headerlink" title="轻音乐："></a>轻音乐：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895239160" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><details class="folding-tag" ><summary> 最近在听 </summary>              <div class='content'>              <h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2867620500" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><!-- <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-autoplay="true"> </div> -->]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/card_weibo.js"/>
       <url>/js/card_weibo.js</url>
       
@@ -250,17 +283,6 @@
       <url>/js/cursor.js</url>
       
         <content type="html"><![CDATA[var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/fps.js"/>
-      <url>/js/fps.js</url>
-      
-        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "哎嘿！复制成功🍬",                    message: "若要转载最好保留原文链接哦，给你一个大大的赞！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})// // 复制提醒// document.addEventListener(F12, function () {//     debounce(function (){//         new Vue({//             data: function () {//                 this.$notify({//                     title: "你已被发现😜",//                     message: "小伙子，扒源记住要遵循GPL协议！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "warning",//                     duration: 5000//                 });//             }//         })//     }, 300)// })]]></content>
       
     </entry>
     
@@ -290,43 +312,21 @@
     
     <entry>
       <title></title>
+      <link href="/js/fps.js"/>
+      <url>/js/fps.js</url>
+      
+        <content type="html"><![CDATA[if (window.localStorage.getItem("fpson") == undefined || window.localStorage.getItem("fpson") == "1") {    var rAF = function () {        return (            window.requestAnimationFrame ||            window.webkitRequestAnimationFrame ||            function (callback) {                window.setTimeout(callback, 1000 / 60);            }        );    }();    var frame = 0;    var allFrameCount = 0;    var lastTime = Date.now();    var lastFameTime = Date.now();    var loop = function () {        var now = Date.now();        var fs = (now - lastFameTime);        var fps = Math.round(1000 / fs);        lastFameTime = now;        // 不置 0，在动画的开头及结尾记录此值的差值算出 FPS        allFrameCount++;        frame++;        if (now > 1000 + lastTime) {            var fps = Math.round((frame * 1000) / (now - lastTime));            if (fps <= 5) {                var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`            } else if (fps <= 15) {                var kd = `<span style="color:red">电竞级帧率😖</span>`            } else if (fps <= 25) {                var kd = `<span style="color:orange">有点难受😨</span>`            } else if (fps < 35) {                var kd = `<span style="color:#9338e6">不太流畅🙄</span>`            } else if (fps <= 45) {                var kd = `<span style="color:#08b7e4">还不错哦😁</span>`            } else {                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`            }            document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;            frame = 0;            lastTime = now;        };        rAF(loop);    }    loop();} else {    document.getElementById("fps").style = "display:none!important"}// 复制提醒document.addEventListener("copy", function () {    debounce(function () {        new Vue({            data: function () {                this.$notify({                    title: "哎嘿！复制成功🍬",                    message: "若要转载最好保留原文链接哦，给你一个大大的赞！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                    duration: 5000                });            }        })    }, 300);})// // 复制提醒// document.addEventListener(F12, function () {//     debounce(function (){//         new Vue({//             data: function () {//                 this.$notify({//                     title: "你已被发现😜",//                     message: "小伙子，扒源记住要遵循GPL协议！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "warning",//                     duration: 5000//                 });//             }//         })//     }, 300)// })]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/nav.js"/>
       <url>/js/nav.js</url>
       
         <content type="html"><![CDATA[// document.addEventListener('pjax:complete', tonav);// document.addEventListener('DOMContentLoaded', tonav);// //响应pjax// function tonav() {//     document.getElementById("name-container").setAttribute("style", "display:none");//     var position = $(window).scrollTop();//     $(window).scroll(function () {//         var scroll = $(window).scrollTop();//         if (scroll > position) {//             document.getElementById("name-container").setAttribute("style", "");//             document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");//         } else {//             document.getElementsByClassName("menus_items")[1].setAttribute("style", "");//             document.getElementById("name-container").setAttribute("style", "display:none");//         }//         position = scroll;//     });//     //修复没有弄右键菜单的童鞋无法回顶部的问题//     document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];// }// function scrollToTop() {//     document.getElementsByClassName("menus_items")[1].setAttribute("style", "");//     document.getElementById("name-container").setAttribute("style", "display:none");//     btf.scrollToDest(0, 500);// }//js有一个小问题：就是只要鼠标滚动不论哪里都会响应，即便你滚动的是子元素//2022.9.11 已修复，需要jq，请自行引入document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function () {  var scroll = $(window).scrollTop();  if (scroll > position) {    document.getElementById("name-container").setAttribute("style", "");    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");  } else {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");  }  position = scroll;});function scrollToTop(){    document.getElementsByClassName("menus_items")[1].setAttribute("style","");    document.getElementById("name-container").setAttribute("style","display:none");    btf.scrollToDest(0, 500);}//修复没有弄右键菜单的童鞋无法回顶部的问题document.getElementById("page-name").innerText = document.title.split(" | JxdのTiny Home(*^_^*)")[0];/*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：document.getElementById("page-name").innerText=document.title或者把你的网站的分隔符和全局网站名称加上去*/]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/newYear.js"/>
-      <url>/js/newYear.js</url>
-      
-        <content type="html"><![CDATA[newYearTimer = null;var newYear = () => {    clearTimeout(newYearTimer);    if (!document.querySelector('#newYear')) return;    // 新年时间戳 and 星期对象    let newYear = new Date('2023-01-22 00:00:00').getTime() / 1000,        week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }    time();    // 补零函数    function nol(h) { return h > 9 ? h : '0' + h; };    function time() {        // 现在 时间对象        let now = new Date();        // 右下角 今天        document.querySelector('#newYear .today').innerHTML = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate() + ' ' + week[now.getDay()]        // 现在与新年相差秒数        let second = newYear - Math.round(now.getTime() / 1000);        // 小于0则表示已经过年        if (second < 0) {            document.querySelector('#newYear .title').innerHTML = 'Happy New Year!';            document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐</p>';        } else {            // 大于0则还未过年            document.querySelector('#newYear .title').innerHTML = '距离2023年春节：'            // 大于一天则直接渲染天数            if (second > 86400) {                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="day">${Math.ceil(second / 86400)}<span class="unit">天</span></span>`            } else {                // 小于一天则使用时分秒计时。                let h = nol(parseInt(second / 3600));                second %= 3600;                let m = nol(parseInt(second / 60));                second %= 60;                let s = nol(second);                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${h}:${m}:${s}</span></span>`;                // 计时                newYearTimer = setTimeout(time, 1000);            }        }    }    // 元宝飘落    jQuery(document).ready(function ($) {        $('#newYear').wpSuperSnow({            flakes: ['https://tuchuang.voooe.cn/images/2023/01/02/yb1.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb2.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb3.webp'],            totalFlakes: '100',            zIndex: '999999',            maxSize: '30',            maxDuration: '20',            useFlakeTrans: false        });    });}// Pjax适配：若没有开启Pjax这里直接是newYear()即可// 开了Pjax的用以下两句newYear()]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/readPercent.js"/>
-      <url>/js/readPercent.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/share.js"/>
-      <url>/js/share.js</url>
-      
-        <content type="html"><![CDATA[// 分享本页function share_() {    let url = window.location.origin + window.location.pathname    try {        // 截取标题        var title = document.title;        var subTitle = title.endsWith("| jxd🍎") ? title.substring(0, title.length - 14) : title;        navigator.clipboard.writeText('jxd🍎的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');        new Vue({            data: function () {                this.$notify({                    title: "成功复制分享信息🎉",                    message: "您现在可以通过粘贴直接跟小伙伴分享了！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                     duration: 5000                });                // return { visible: false }            }        })    } catch (err) {        console.error('复制失败！', err);    }    // new ClipboardJS(".share", { text: function () { return '标题：' + document.title + '\n链接：' + url } });    // btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")}// 防抖function share() {    debounce(share_, 300);}]]></content>
       
     </entry>
     
@@ -345,10 +345,32 @@
     
     <entry>
       <title></title>
+      <link href="/js/share.js"/>
+      <url>/js/share.js</url>
+      
+        <content type="html"><![CDATA[// 分享本页function share_() {    let url = window.location.origin + window.location.pathname    try {        // 截取标题        var title = document.title;        var subTitle = title.endsWith("| jxd🍎") ? title.substring(0, title.length - 14) : title;        navigator.clipboard.writeText('jxd🍎的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');        new Vue({            data: function () {                this.$notify({                    title: "成功复制分享信息🎉",                    message: "您现在可以通过粘贴直接跟小伙伴分享了！",                    position: 'top-left',                    offset: 50,                    showClose: true,                    type: "success",                     duration: 5000                });                // return { visible: false }            }        })    } catch (err) {        console.error('复制失败！', err);    }    // new ClipboardJS(".share", { text: function () { return '标题：' + document.title + '\n链接：' + url } });    // btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")}// 防抖function share() {    debounce(share_, 300);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/suiji.js"/>
       <url>/js/suiji.js</url>
       
         <content type="html"><![CDATA[// 发现有时会和当前页面重复，加一个判断function randomPost() {    fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {        let ls = data.querySelectorAll('url loc');        while (true) {            let url = ls[Math.floor(Math.random() * ls.length)].innerHTML;            if (location.href == url) continue;            location.href = url;            return;        }    })}// 阅读文章时看了一遍写的代码，发现加个数组和一个遍历完全没必要，改成下面这个即可。// function randomPost() {//     fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {//         let ls = data.querySelectorAll('url loc');//         location.href = ls[Math.floor(Math.random() * ls.length)].innerHTML//     })// }// 旧代码// function randomPost() {    // fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {    //     let ls = data.querySelectorAll('url loc');    //     let list = [];    //     ls.forEach(i => list.push(i.innerHTML))    //     location.href = list[Math.floor(Math.random() * ls.length)]    // })// }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/newYear.js"/>
+      <url>/js/newYear.js</url>
+      
+        <content type="html"><![CDATA[newYearTimer = null;var newYear = () => {    clearTimeout(newYearTimer);    if (!document.querySelector('#newYear')) return;    // 新年时间戳 and 星期对象    let newYear = new Date('2023-01-22 00:00:00').getTime() / 1000,        week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }    time();    // 补零函数    function nol(h) { return h > 9 ? h : '0' + h; };    function time() {        // 现在 时间对象        let now = new Date();        // 右下角 今天        document.querySelector('#newYear .today').innerHTML = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate() + ' ' + week[now.getDay()]        // 现在与新年相差秒数        let second = newYear - Math.round(now.getTime() / 1000);        // 小于0则表示已经过年        if (second < 0) {            document.querySelector('#newYear .title').innerHTML = 'Happy New Year!';            document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐</p>';        } else {            // 大于0则还未过年            document.querySelector('#newYear .title').innerHTML = '距离2023年春节：'            // 大于一天则直接渲染天数            if (second > 86400) {                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="day">${Math.ceil(second / 86400)}<span class="unit">天</span></span>`            } else {                // 小于一天则使用时分秒计时。                let h = nol(parseInt(second / 3600));                second %= 3600;                let m = nol(parseInt(second / 60));                second %= 60;                let s = nol(second);                document.querySelector('#newYear .newYear-time').innerHTML = `<span class="time">${h}:${m}:${s}</span></span>`;                // 计时                newYearTimer = setTimeout(time, 1000);            }        }    }    // 元宝飘落    jQuery(document).ready(function ($) {        $('#newYear').wpSuperSnow({            flakes: ['https://tuchuang.voooe.cn/images/2023/01/02/yb1.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb2.webp', 'https://tuchuang.voooe.cn/images/2023/01/02/yb3.webp'],            totalFlakes: '100',            zIndex: '999999',            maxSize: '30',            maxDuration: '20',            useFlakeTrans: false        });    });}// Pjax适配：若没有开启Pjax这里直接是newYear()即可// 开了Pjax的用以下两句newYear()]]></content>
       
     </entry>
     
@@ -366,50 +388,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
-      
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '快回来🤣🤣';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '好耶~😊😊';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/universe.js"/>
-      <url>/js/universe.js</url>
-      
-        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒// document.a(F12, function () {//     debounce(function (){//         new Vue({//             data: function () {//                 this.$notify({//                     title: "你已被发现😜",//                     message: "小伙子，扒源记住要遵循GPL协议！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "warning",//                     duration: 5000//                 });//             }//         })//     }, 300)// })// 复制提醒// document.addEventListener("copy", function () {//     debounce(function () {//         new Vue({//             data: function () {//                 this.$notify({//                     title: "哎嘿！复制成功🍬",//                     message: "若要转载最好保留原文链接哦，给你一个大大的赞！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "success",//                     duration: 5000//                 });//             }//         })//     }, 300);// })]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><div class="note info flat">    <p><font size="4">轻音乐资源由<a href="https://www.fomal.cc/">Fomalhaut</a>大佬提供</font></p>    <p><font size="4">想要获得更多好听歌曲可以关注我网易云音乐：</font></p>    <p><font size="4"><a href="https://jastin.fun/img/p03.jpg">https://jastin.fun/img/p03.jpg</a></font></p></div><h2 id="轻音乐"><a href="#轻音乐" class="headerlink" title="轻音乐"></a>轻音乐</h2><details class="folding-tag" ><summary> 轻音乐 </summary>              <div class='content'>              <h2 id="轻音乐："><a href="#轻音乐：" class="headerlink" title="轻音乐："></a>轻音乐：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895239160" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><details class="folding-tag" ><summary> 最近在听 </summary>              <div class='content'>              <h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2867620500" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><!-- <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-autoplay="true"> </div> -->]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -421,11 +399,33 @@
     
     
     <entry>
-      <title>动画</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title></title>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
       
-        <content type="html"><![CDATA[<div class="note info flat">    <p><font size="4"><b>以下动画源码均取自他人的开源代码，如有侵权请联系删除!</b></font></p></div><div class="gallery-group-main">    <figure class="gallery-group">        <img src="https://code.haiyong.site/wp-content/uploads/2022/11/hacker.png" />        <figcaption>            <div class="gallery-group-name">黑客入侵</div>            <p>模拟黑客入侵网站画面</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/hacker/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/4af46e58013144d9b4ba8e20a9fc39c2.png" />        <figcaption>            <div class="gallery-group-name">哆啦A梦时光机</div>            <p>带你穿越时空</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/chuanyueshikong.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/2d5574d9f180413393d95bfa72fba108.gif" />        <figcaption>            <div class="gallery-group-name">3D烟花特效</div>            <p>3D眩晕误入</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/fireworks4.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/a6d6a5ccf467476fa986646fbeabc840.png" />        <figcaption>            <div class="gallery-group-name">日夜交替动画</div>            <p>日夜切换</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/daynight.html"></a>        </figcaption>    </figure></div>]]></content>
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
+      
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '快回来🤣🤣';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '好耶~😊😊';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/universe.js"/>
+      <url>/js/universe.js</url>
+      
+        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒// document.a(F12, function () {//     debounce(function (){//         new Vue({//             data: function () {//                 this.$notify({//                     title: "你已被发现😜",//                     message: "小伙子，扒源记住要遵循GPL协议！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "warning",//                     duration: 5000//                 });//             }//         })//     }, 300)// })// 复制提醒// document.addEventListener("copy", function () {//     debounce(function () {//         new Vue({//             data: function () {//                 this.$notify({//                     title: "哎嘿！复制成功🍬",//                     message: "若要转载最好保留原文链接哦，给你一个大大的赞！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "success",//                     duration: 5000//                 });//             }//         })//     }, 300);// })]]></content>
       
     </entry>
     
