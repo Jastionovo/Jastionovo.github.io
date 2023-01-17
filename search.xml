@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>应用推荐(施工中：预计20号之前完成)</title>
+      <title>应用推荐</title>
       <link href="/2023/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/01/01/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>Github打不开？快进来看看（不含魔法）</title>
-      <link href="/2023/01/01/%E7%AC%AC%E4%BA%94%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/01/01/%E7%AC%AC%E4%BA%94%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<h1 id="GitHub加速方法"><a href="#GitHub加速方法" class="headerlink" title="GitHub加速方法"></a>GitHub加速方法</h1><p>许多同学在访问GitHub时会出现无法访问，或是在下载文件压缩包时速度特别慢，很大的原因就是因为GitHub离国内最近的服务器是在新加坡，距离中国最近约有2600公里，也就时说，访问GitHub上的一张图片，一个数据包就要走2600公里远！所以需要一些软件的帮助来解决这中间距离所带来的问题。</p><h2 id="1-网易UU加速器"><a href="#1-网易UU加速器" class="headerlink" title="1. 网易UU加速器"></a>1. 网易UU加速器</h2><p>这是一款由网易公司研发的游戏加速器类产品，主要用途是为了游戏加速所诞生的，但其实其中还有特别的功能。</p><p>我们在网易UU加速器中<strong>搜索“学术资源”</strong>便可以搜索到下面的内容<br><img src="https://jastin.fun/img/md8.png" alt=""></p><p>点击立即加速，等待加载完成后，便会自动跳转到一个浏览器页面中，在这个页面中我们可以看到有许多国外的学术网站可以查阅参考，但这些目前与我们无关，我们要做的就是利用这个加速来打开GitHub网站</p><p><img src="https://jastin.fun/img/md9.png" alt=""></p><p>不需要关闭页面，在导航栏处新建一个页面，打开GItHub，这时就会发现我们很顺利便进入了GitHub的页面，经过测试，之前的DownLoad ZIP下载慢的问题也大幅度得到提升，Issues或者图片的查看也非常顺利，总体来说效果还是非常有效的，快去试试看吧。（使用完后记得停止加速）</p><p><img src="https://jastin.fun/img/md10.png" alt=""></p><p>下载链接：<a href="https://uu.163.com/">https://uu.163.com/</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机应用 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Markdown编写总结</title>
       <link href="/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/01/01/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
@@ -96,6 +71,31 @@
         <tags>
             
             <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Github打不开？快进来看看（不含魔法）</title>
+      <link href="/2023/01/01/%E7%AC%AC%E4%BA%94%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/01/01/%E7%AC%AC%E4%BA%94%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="GitHub加速方法"><a href="#GitHub加速方法" class="headerlink" title="GitHub加速方法"></a>GitHub加速方法</h1><p>许多同学在访问GitHub时会出现无法访问，或是在下载文件压缩包时速度特别慢，很大的原因就是因为GitHub离国内最近的服务器是在新加坡，距离中国最近约有2600公里，也就时说，访问GitHub上的一张图片，一个数据包就要走2600公里远！所以需要一些软件的帮助来解决这中间距离所带来的问题。</p><h2 id="1-网易UU加速器"><a href="#1-网易UU加速器" class="headerlink" title="1. 网易UU加速器"></a>1. 网易UU加速器</h2><p>这是一款由网易公司研发的游戏加速器类产品，主要用途是为了游戏加速所诞生的，但其实其中还有特别的功能。</p><p>我们在网易UU加速器中<strong>搜索“学术资源”</strong>便可以搜索到下面的内容<br><img src="https://jastin.fun/img/md8.png" alt=""></p><p>点击立即加速，等待加载完成后，便会自动跳转到一个浏览器页面中，在这个页面中我们可以看到有许多国外的学术网站可以查阅参考，但这些目前与我们无关，我们要做的就是利用这个加速来打开GitHub网站</p><p><img src="https://jastin.fun/img/md9.png" alt=""></p><p>不需要关闭页面，在导航栏处新建一个页面，打开GItHub，这时就会发现我们很顺利便进入了GitHub的页面，经过测试，之前的DownLoad ZIP下载慢的问题也大幅度得到提升，Issues或者图片的查看也非常顺利，总体来说效果还是非常有效的，快去试试看吧。（使用完后记得停止加速）</p><p><img src="https://jastin.fun/img/md10.png" alt=""></p><p>下载链接：<a href="https://uu.163.com/">https://uu.163.com/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机应用 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
             
         </tags>
       
@@ -157,22 +157,22 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title></title>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
       
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
       
     </entry>
     
@@ -190,20 +190,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/emoji.css"/>
-      <url>/css/emoji.css</url>
-      
-        <content type="html"><![CDATA[#owo-big {    position: fixed;    align-items: center;    background-color: rgb(255, 255, 255);    border: 1px #aaa solid;    border-radius: 10px;    z-index: 9999;    display: none;    transform: translate(0, -105%);    overflow: hidden;    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);}[data-theme=dark] #owo-big {    background-color: #4a4a4a}#owo-big img {    width: 100%;}/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */@keyframes owoIn {    0% {        transform: translate(0, -95%);        opacity: 0;    }    100% {        transform: translate(0, -105%);        opacity: 1;    }}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -213,10 +202,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/readPercent.css"/>
-      <url>/css/readPercent.css</url>
+      <link href="/css/emoji.css"/>
+      <url>/css/emoji.css</url>
       
-        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+        <content type="html"><![CDATA[#owo-big {    position: fixed;    align-items: center;    background-color: rgb(255, 255, 255);    border: 1px #aaa solid;    border-radius: 10px;    z-index: 9999;    display: none;    transform: translate(0, -105%);    overflow: hidden;    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);}[data-theme=dark] #owo-big {    background-color: #4a4a4a}#owo-big img {    width: 100%;}/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */@keyframes owoIn {    0% {        transform: translate(0, -95%);        opacity: 0;    }    100% {        transform: translate(0, -105%);        opacity: 1;    }}]]></content>
       
     </entry>
     
@@ -235,10 +224,43 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;  }]]></content>
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动画</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat">    <p><font size="4"><b>以下动画源码均取自他人的开源代码，如有侵权请联系删除!</b></font></p></div><div class="gallery-group-main">    <figure class="gallery-group">        <img src="https://code.haiyong.site/wp-content/uploads/2022/11/hacker.png" />        <figcaption>            <div class="gallery-group-name">黑客入侵</div>            <p>模拟黑客入侵网站画面</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/hacker/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/4af46e58013144d9b4ba8e20a9fc39c2.png" />        <figcaption>            <div class="gallery-group-name">哆啦A梦时光机</div>            <p>带你穿越时空</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/chuanyueshikong.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/2d5574d9f180413393d95bfa72fba108.gif" />        <figcaption>            <div class="gallery-group-name">3D烟花特效</div>            <p>3D眩晕误入</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/fireworks4.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/a6d6a5ccf467476fa986646fbeabc840.png" />        <figcaption>            <div class="gallery-group-name">日夜交替动画</div>            <p>日夜切换</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/daynight.html"></a>        </figcaption>    </figure></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><div class="note info flat">    <p><font size="4">轻音乐资源由<a href="https://www.fomal.cc/">Fomalhaut</a>大佬提供</font></p>    <p><font size="4">想要获得更多好听歌曲可以关注我网易云音乐：</font></p>    <p><font size="4"><a href="https://jastin.fun/img/p03.jpg">https://jastin.fun/img/p03.jpg</a></font></p></div><h2 id="轻音乐"><a href="#轻音乐" class="headerlink" title="轻音乐"></a>轻音乐</h2><details class="folding-tag" ><summary> 轻音乐 </summary>              <div class='content'>              <h2 id="轻音乐："><a href="#轻音乐：" class="headerlink" title="轻音乐："></a>轻音乐：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895239160" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><details class="folding-tag" ><summary> 最近在听 </summary>              <div class='content'>              <h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2867620500" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><!-- <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-autoplay="true"> </div> -->]]></content>
       
     </entry>
     
@@ -268,17 +290,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/emoji.js"/>
-      <url>/js/emoji.js</url>
-      
-        <content type="html"><![CDATA[// 如果当前页有评论就执行函数if (document.getElementById('post-comment')) owoBig();// 表情放大function owoBig() {    let flag = 1, // 设置节流阀        owo_time = '', // 设置计时器        m = 3; // 设置放大倍数    // 创建盒子    let div = document.createElement('div'),        body = document.querySelector('body');    // 设置ID    div.id = 'owo-big';    // 插入盒子    body.appendChild(div)    // 构造observer    let observer = new MutationObserver(mutations => {        for (let i = 0; i < mutations.length; i++) {            let dom = mutations[i].addedNodes,                owo_body = '';            if (dom.length == 2 && dom[1].className == 'OwO-body') owo_body = dom[1];            // 如果需要在评论内容中启用此功能请解除下面的注释            // else if (dom.length == 1 && dom[0].className == 'tk-comment') owo_body = dom[0];            else continue;                        // 禁用右键（手机端长按会出现右键菜单，为了体验给禁用掉）            if (document.body.clientWidth <= 768) owo_body.addEventListener('contextmenu', e => e.preventDefault());            // 鼠标移入            owo_body.onmouseover = (e) => {                    if (flag && e.target.tagName == 'IMG') {                        flag = 0;                        // 移入300毫秒后显示盒子                        owo_time = setTimeout(() => {                            let height = e.path[0].clientHeight * m, // 盒子高                                width = e.path[0].clientWidth * m, // 盒子宽                                left = (e.x - e.offsetX) - (width - e.path[0].clientWidth) / 2, // 盒子与屏幕左边距离                                top = e.y - e.offsetY; // 盒子与屏幕顶部距离                            if ((left + width) > body.clientWidth) left -= ((left + width) - body.clientWidth + 10); // 右边缘检测，防止超出屏幕                            if (left < 0) left = 10; // 左边缘检测，防止超出屏幕                            // 设置盒子样式                            div.style.cssText = `display:flex; height:${height}px; width:${width}px; left:${left}px; top:${top}px;`;                            // 在盒子中插入图片                            div.innerHTML = `<img src="${e.target.src}">`                        }, 300);                    }                };            // 鼠标移出隐藏盒子            owo_body.onmouseout = () => { div.style.display = 'none', flag = 1, clearTimeout(owo_time); }        }    })    observer.observe(document.getElementById('post-comment'), { subtree: true, childList: true }) // 监听的 元素 和 配置项}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/fps.js"/>
       <url>/js/fps.js</url>
       
@@ -301,10 +312,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/nav.js"/>
-      <url>/js/nav.js</url>
+      <link href="/js/emoji.js"/>
+      <url>/js/emoji.js</url>
       
-        <content type="html"><![CDATA[// document.addEventListener('pjax:complete', tonav);// document.addEventListener('DOMContentLoaded', tonav);// //响应pjax// function tonav() {//     document.getElementById("name-container").setAttribute("style", "display:none");//     var position = $(window).scrollTop();//     $(window).scroll(function () {//         var scroll = $(window).scrollTop();//         if (scroll > position) {//             document.getElementById("name-container").setAttribute("style", "");//             document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");//         } else {//             document.getElementsByClassName("menus_items")[1].setAttribute("style", "");//             document.getElementById("name-container").setAttribute("style", "display:none");//         }//         position = scroll;//     });//     //修复没有弄右键菜单的童鞋无法回顶部的问题//     document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];// }// function scrollToTop() {//     document.getElementsByClassName("menus_items")[1].setAttribute("style", "");//     document.getElementById("name-container").setAttribute("style", "display:none");//     btf.scrollToDest(0, 500);// }//js有一个小问题：就是只要鼠标滚动不论哪里都会响应，即便你滚动的是子元素//2022.9.11 已修复，需要jq，请自行引入document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function () {  var scroll = $(window).scrollTop();  if (scroll > position) {    document.getElementById("name-container").setAttribute("style", "");    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");  } else {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");  }  position = scroll;});function scrollToTop(){    document.getElementsByClassName("menus_items")[1].setAttribute("style","");    document.getElementById("name-container").setAttribute("style","display:none");    btf.scrollToDest(0, 500);}//修复没有弄右键菜单的童鞋无法回顶部的问题document.getElementById("page-name").innerText = document.title.split(" | JxdのTiny Home(*^_^*)")[0];/*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：document.getElementById("page-name").innerText=document.title或者把你的网站的分隔符和全局网站名称加上去*/]]></content>
+        <content type="html"><![CDATA[// 如果当前页有评论就执行函数if (document.getElementById('post-comment')) owoBig();// 表情放大function owoBig() {    let flag = 1, // 设置节流阀        owo_time = '', // 设置计时器        m = 3; // 设置放大倍数    // 创建盒子    let div = document.createElement('div'),        body = document.querySelector('body');    // 设置ID    div.id = 'owo-big';    // 插入盒子    body.appendChild(div)    // 构造observer    let observer = new MutationObserver(mutations => {        for (let i = 0; i < mutations.length; i++) {            let dom = mutations[i].addedNodes,                owo_body = '';            if (dom.length == 2 && dom[1].className == 'OwO-body') owo_body = dom[1];            // 如果需要在评论内容中启用此功能请解除下面的注释            // else if (dom.length == 1 && dom[0].className == 'tk-comment') owo_body = dom[0];            else continue;                        // 禁用右键（手机端长按会出现右键菜单，为了体验给禁用掉）            if (document.body.clientWidth <= 768) owo_body.addEventListener('contextmenu', e => e.preventDefault());            // 鼠标移入            owo_body.onmouseover = (e) => {                    if (flag && e.target.tagName == 'IMG') {                        flag = 0;                        // 移入300毫秒后显示盒子                        owo_time = setTimeout(() => {                            let height = e.path[0].clientHeight * m, // 盒子高                                width = e.path[0].clientWidth * m, // 盒子宽                                left = (e.x - e.offsetX) - (width - e.path[0].clientWidth) / 2, // 盒子与屏幕左边距离                                top = e.y - e.offsetY; // 盒子与屏幕顶部距离                            if ((left + width) > body.clientWidth) left -= ((left + width) - body.clientWidth + 10); // 右边缘检测，防止超出屏幕                            if (left < 0) left = 10; // 左边缘检测，防止超出屏幕                            // 设置盒子样式                            div.style.cssText = `display:flex; height:${height}px; width:${width}px; left:${left}px; top:${top}px;`;                            // 在盒子中插入图片                            div.innerHTML = `<img src="${e.target.src}">`                        }, 300);                    }                };            // 鼠标移出隐藏盒子            owo_body.onmouseout = () => { div.style.display = 'none', flag = 1, clearTimeout(owo_time); }        }    })    observer.observe(document.getElementById('post-comment'), { subtree: true, childList: true }) // 监听的 元素 和 配置项}]]></content>
       
     </entry>
     
@@ -327,6 +338,28 @@
       <url>/js/readPercent.js</url>
       
         <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/nav.js"/>
+      <url>/js/nav.js</url>
+      
+        <content type="html"><![CDATA[// document.addEventListener('pjax:complete', tonav);// document.addEventListener('DOMContentLoaded', tonav);// //响应pjax// function tonav() {//     document.getElementById("name-container").setAttribute("style", "display:none");//     var position = $(window).scrollTop();//     $(window).scroll(function () {//         var scroll = $(window).scrollTop();//         if (scroll > position) {//             document.getElementById("name-container").setAttribute("style", "");//             document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");//         } else {//             document.getElementsByClassName("menus_items")[1].setAttribute("style", "");//             document.getElementById("name-container").setAttribute("style", "display:none");//         }//         position = scroll;//     });//     //修复没有弄右键菜单的童鞋无法回顶部的问题//     document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];// }// function scrollToTop() {//     document.getElementsByClassName("menus_items")[1].setAttribute("style", "");//     document.getElementById("name-container").setAttribute("style", "display:none");//     btf.scrollToDest(0, 500);// }//js有一个小问题：就是只要鼠标滚动不论哪里都会响应，即便你滚动的是子元素//2022.9.11 已修复，需要jq，请自行引入document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function () {  var scroll = $(window).scrollTop();  if (scroll > position) {    document.getElementById("name-container").setAttribute("style", "");    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");  } else {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");  }  position = scroll;});function scrollToTop(){    document.getElementsByClassName("menus_items")[1].setAttribute("style","");    document.getElementById("name-container").setAttribute("style","display:none");    btf.scrollToDest(0, 500);}//修复没有弄右键菜单的童鞋无法回顶部的问题document.getElementById("page-name").innerText = document.title.split(" | JxdのTiny Home(*^_^*)")[0];/*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：document.getElementById("page-name").innerText=document.title或者把你的网站的分隔符和全局网站名称加上去*/]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/suiji.js"/>
+      <url>/js/suiji.js</url>
+      
+        <content type="html"><![CDATA[// 发现有时会和当前页面重复，加一个判断function randomPost() {    fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {        let ls = data.querySelectorAll('url loc');        while (true) {            let url = ls[Math.floor(Math.random() * ls.length)].innerHTML;            if (location.href == url) continue;            location.href = url;            return;        }    })}// 阅读文章时看了一遍写的代码，发现加个数组和一个遍历完全没必要，改成下面这个即可。// function randomPost() {//     fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {//         let ls = data.querySelectorAll('url loc');//         location.href = ls[Math.floor(Math.random() * ls.length)].innerHTML//     })// }// 旧代码// function randomPost() {    // fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {    //     let ls = data.querySelectorAll('url loc');    //     let list = [];    //     ls.forEach(i => list.push(i.innerHTML))    //     location.href = list[Math.floor(Math.random() * ls.length)]    // })// }]]></content>
       
     </entry>
     
@@ -367,54 +400,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/suiji.js"/>
-      <url>/js/suiji.js</url>
-      
-        <content type="html"><![CDATA[// 发现有时会和当前页面重复，加一个判断function randomPost() {    fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {        let ls = data.querySelectorAll('url loc');        while (true) {            let url = ls[Math.floor(Math.random() * ls.length)].innerHTML;            if (location.href == url) continue;            location.href = url;            return;        }    })}// 阅读文章时看了一遍写的代码，发现加个数组和一个遍历完全没必要，改成下面这个即可。// function randomPost() {//     fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {//         let ls = data.querySelectorAll('url loc');//         location.href = ls[Math.floor(Math.random() * ls.length)].innerHTML//     })// }// 旧代码// function randomPost() {    // fetch('/baidusitemap.xml').then(res => res.text()).then(str => (new window.DOMParser()).parseFromString(str, "text/xml")).then(data => {    //     let ls = data.querySelectorAll('url loc');    //     let list = [];    //     ls.forEach(i => list.push(i.innerHTML))    //     location.href = list[Math.floor(Math.random() * ls.length)]    // })// }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>动画</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat">    <p><font size="4"><b>以下动画源码均取自他人的开源代码，如有侵权请联系删除!</b></font></p></div><div class="gallery-group-main">    <figure class="gallery-group">        <img src="https://code.haiyong.site/wp-content/uploads/2022/11/hacker.png" />        <figcaption>            <div class="gallery-group-name">黑客入侵</div>            <p>模拟黑客入侵网站画面</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/hacker/"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/4af46e58013144d9b4ba8e20a9fc39c2.png" />        <figcaption>            <div class="gallery-group-name">哆啦A梦时光机</div>            <p>带你穿越时空</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/chuanyueshikong.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/2d5574d9f180413393d95bfa72fba108.gif" />        <figcaption>            <div class="gallery-group-name">3D烟花特效</div>            <p>3D眩晕误入</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/fireworks4.html"></a>        </figcaption>    </figure>    <figure class="gallery-group">        <img src="https://img-blog.csdnimg.cn/a6d6a5ccf467476fa986646fbeabc840.png" />        <figcaption>            <div class="gallery-group-name">日夜交替动画</div>            <p>日夜切换</p>            <a target="_blank" rel="noopener" href="https://haiyong.site/demo/daynight.html"></a>        </figcaption>    </figure></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><div class="note info flat">    <p><font size="4">轻音乐资源由<a href="https://www.fomal.cc/">Fomalhaut</a>大佬提供</font></p>    <p><font size="4">想要获得更多好听歌曲可以关注我网易云音乐：</font></p>    <p><font size="4"><a href="https://jastin.fun/img/p03.jpg">https://jastin.fun/img/p03.jpg</a></font></p></div><h2 id="轻音乐"><a href="#轻音乐" class="headerlink" title="轻音乐"></a>轻音乐</h2><details class="folding-tag" ><summary> 轻音乐 </summary>              <div class='content'>              <h2 id="轻音乐："><a href="#轻音乐：" class="headerlink" title="轻音乐："></a>轻音乐：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="4895239160" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><details class="folding-tag" ><summary> 最近在听 </summary>              <div class='content'>              <h2 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h2><div id="aplayer-oSEOhviA" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2867620500" data-server="netease" data-type="playlist" data-mode="random" data-autoplay="false" data-listmaxheight="340px" data-preload="auto" data-theme="#e3f2f5" data-volume="0.4" mutex="true"></div>              </div>            </details><!-- <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-autoplay="true"> </div> -->]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/title.js"/>
       <url>/js/title.js</url>
       
         <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '快回来🤣🤣';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '好耶~😊😊';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -426,6 +415,17 @@
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()// 防抖全局计时器let TT = null;    //time用来控制事件的触发// 防抖函数:fn->逻辑 time->防抖时间function debounce(fn, time) {    if (TT !== null) clearTimeout(TT);    TT = setTimeout(fn, time);}// 复制提醒// document.a(F12, function () {//     debounce(function (){//         new Vue({//             data: function () {//                 this.$notify({//                     title: "你已被发现😜",//                     message: "小伙子，扒源记住要遵循GPL协议！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "warning",//                     duration: 5000//                 });//             }//         })//     }, 300)// })// 复制提醒// document.addEventListener("copy", function () {//     debounce(function () {//         new Vue({//             data: function () {//                 this.$notify({//                     title: "哎嘿！复制成功🍬",//                     message: "若要转载最好保留原文链接哦，给你一个大大的赞！",//                     position: 'top-left',//                     offset: 50,//                     showClose: true,//                     type: "success",//                     duration: 5000//                 });//             }//         })//     }, 300);// })]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
